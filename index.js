@@ -279,4 +279,12 @@ app.put(
   }
 );
 
-export default serverless(app);
+//////////////////////////////
+// 🚀 Start Server
+//////////////////////////////
+const PORT = 5000;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
+
