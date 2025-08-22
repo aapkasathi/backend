@@ -1,0 +1,21 @@
+{
+  "name": "apka-sathi-backend",
+  "version": "1.0.0",
+  "description": "Backend API for vendors and bank accounts using Supabase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.0",
+    "body-parser": "^1.20.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
